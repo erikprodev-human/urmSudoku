@@ -9,7 +9,7 @@ The URM architecture is a reasoning-first architecture that learns to solve logi
 **Key Advantages:**
 - Only **~14 million parameters** required to reach 75% accuracy on Sudoku Extreme
 - Outperforms larger Transformer language models by a significant margin in terms of GPU memory usage (up to ~100x less memory)
-- Note: 100x memory reduction does not mean 100x faster inference. Expect approximately a 5x speed-up factor, as the model still performs significant computation but with fewer parameters.
+- Note: 100x memory reduction does not mean 100x faster inference. Expect approximately a 8x speed-up factor, as the model still performs significant computation but with fewer parameters.
 
 ## Results
 
