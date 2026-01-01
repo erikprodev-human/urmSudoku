@@ -2,6 +2,8 @@
 
 A simplified implementation of the **Universal Reasoning Model (URM)** for solving the Extreme Sudoku Challenge.
 
+** ! checkpoints will be uploaded to Hugging Face Soon ...
+
 ## Overview
 
 The URM architecture is a reasoning-first architecture that learns to solve logical puzzles through iterative reasoning (8 steps). 
