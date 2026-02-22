@@ -2,6 +2,8 @@
 
 A simplified implementation of the **Universal Reasoning Model (URM)** for solving the Extreme Sudoku Challenge.
 
+** ! checkpoints will be uploaded to Hugging Face Soon ...
+
 ## Overview
 
 The URM architecture is a reasoning-first architecture that learns to solve logical puzzles through iterative reasoning (8 steps). 
@@ -9,23 +11,29 @@ The URM architecture is a reasoning-first architecture that learns to solve logi
 **Key Advantages:**
 - Only **~14 million parameters** required to reach 75% accuracy on Sudoku Extreme
 - Outperforms larger Transformer language models by a significant margin in terms of GPU memory usage (up to ~100x less memory)
-- Note: 100x memory reduction does not mean 100x faster inference. Expect approximately a 5x speed-up factor, as the model still performs significant computation but with fewer parameters.
+- Note: 100x memory reduction does not mean 100x faster inference. Expect approximately a 8x speed-up factor, as the model still performs significant computation but with fewer parameters. (Not really measured, assumed from the Research Papers)
 
 ## Results
 
 After 100k training steps: **75% accuracy** (75% chance the AI solves the Sudoku puzzle completely).
 
-Training time: ~9 hours on an RTX 5060 Ti.
+Training time: 
+* ~11 hours on a RTX 5060 Ti
+* ~2.5 hours on a RTX 5090 
 
 ### Training Progress
 
-![Training Graphs](graphs/training_graphs_step_100000.png)
+![Training Graphs](urmSudoku_v2/graphs/training_graphs_step_120000.png)
 
 ### Example: AI Solving a Sudoku
 
-![Sudoku Solving Example](results/step_80000_pass1_75.0.gif)
+![Sudoku Solving Example](urmSudoku_v2/results/step_72000_pass8_75.0.gif)
 
 ## Changelog
+
+### v2 - 22.02.2026
+- Removed Confusing Metrics
+- Retrained on a RTX 5090 32GB
 
 ### v1 - 01.01.2026
 - Muon Optimizer
