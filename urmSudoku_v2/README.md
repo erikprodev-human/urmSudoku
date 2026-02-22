@@ -23,11 +23,11 @@ Training time:
 
 ### Training Progress
 
-![Training Graphs](urmSudoku_v2/graphs/training_graphs_step_120000.png)
+![Training Graphs](graphs/training_graphs_step_120000.png)
 
 ### Example: AI Solving a Sudoku
 
-![Sudoku Solving Example](urmSudoku_v2/results/step_72000_pass8_75.0.gif)
+![Sudoku Solving Example](results/step_72000_pass8_75.0.gif)
 
 ## Changelog
 
