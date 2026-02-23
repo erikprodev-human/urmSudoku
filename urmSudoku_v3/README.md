@@ -2,7 +2,7 @@
 
 A simplified implementation of the **Universal Reasoning Model (URM)** for solving the Extreme Sudoku Challenge.
 
-** ! checkpoints will be uploaded to Hugging Face Soon ...
+Model Checkpoints Avaiable on Hugging Face: https://huggingface.co/erikpro007/urmSudoku_v3/tree/main
 
 ## Overview
 
